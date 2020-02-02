@@ -1,0 +1,12 @@
+{
+    "name": "y0nnyy.specialchars",
+    "title": "HTML Special Chars",
+    "description": "After writing a word it converts it in HTML code. Or just select the specified text and press Strg-Shift-N and it'll be converted.",
+    "homepage": "https://github.com/Y0nnyy/SpecialChars",
+    "version": "1.3.0",
+    "author": "Jonas Geschke (http://github.com/Y0nnyy)",
+    "license": "MIT",
+    "engines": {
+        "brackets": ">=0.38.0"
+    }
+}
