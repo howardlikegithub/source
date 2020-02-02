@@ -1,0 +1,225 @@
+/* Colors */
+/* Typography */
+/* Overall inline widget content container */
+.js-prop-defn {
+  margin-left: 20px;
+  color: #666666;
+  /* Enable text selection */
+  cursor: auto;
+  -webkit-user-select: text;
+  -khtml-user-select: text;
+  -moz-user-select: text;
+  -ms-user-select: text;
+  -o-user-select: text;
+  user-select: text;
+  font-family: SourceSansPro;
+  font-size: 14px;
+}
+.js-prop-defn:focus {
+  outline: none;
+}
+.js-prop-defn h1 {
+  color: #454545;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: normal;
+  margin: 15px 0 9px 0;
+}
+.js-prop-defn a {
+  color: #0083e8;
+}
+.js-prop-defn code {
+  font-family: SourceCodePro;
+  font-size: 12px;
+  color: #454545;
+  background: none;
+  padding: 0;
+  white-space: normal;
+}
+.js-prop-defn b {
+  font-weight: 500;
+}
+.js-prop-defn .paramtype {
+  color: #6faded;
+}
+/* Left-hand column */
+.js-prop-summary {
+  box-sizing: border-box;
+  float: left;
+  padding-left: 20px;
+  margin-bottom: 20px;
+  width: 35%;
+  word-wrap: break-word;
+  -webkit-hyphens: auto;
+  hyphens: auto;
+}
+.js-prop-summary p {
+  line-height: 18px;
+}
+/* Right-hand column */
+.js-prop-values {
+  box-sizing: border-box;
+  float: right;
+  width: 60%;
+}
+.js-prop-values .scroller {
+  max-height: 300px;
+  overflow-y: auto;
+  margin: 20px 21px 0 0;
+}
+.js-prop-values .scroller:focus {
+  outline: none;
+}
+.js-prop-values dl {
+  margin-top: 0px;
+}
+.js-prop-values dl dt {
+  color: #454545;
+  font-size: 13px;
+  font-weight: 500;
+  margin-bottom: 3px;
+}
+.js-prop-values dl dd {
+  line-height: 18px;
+  margin-left: 20px;
+  margin-right: 0px;
+  margin-bottom: -2px;
+  padding-bottom: 0px;
+}
+.js-prop-values dl dd p,
+.js-prop-values dl dd li,
+.js-prop-values dl dd b {
+  font-size: 13px;
+  font-style: normal;
+  line-height: 18px;
+  margin-bottom: 15px;
+}
+.js-prop-values .optional {
+  color: #56c66c;
+}
+.js-prop-values .optional .bracket {
+  font-weight: 500;
+}
+.js-prop-values .propsForProps {
+  text-indent: 40px;
+}
+.divider-holder {
+  position: absolute;
+  left: 37%;
+  top: 0;
+  height: 100%;
+}
+.divider-holder .divider {
+  margin-left: 12px;
+  width: 0px;
+  height: 100%;
+  border-left: 1px solid #cccccc;
+  border-right: 1px solid white;
+}
+.content-bottom {
+  clear: both;
+}
+a.bottom-link {
+  background: #e5e9e9;
+  background-repeat: no-repeat;
+  background-size: 15px 15px;
+  background-position: 8px 4px;
+  border: 1px solid #9c9e9e;
+  border-radius: 3px 3px 0 0;
+  border-bottom: none;
+  box-shadow: inset 0 1px 0 white;
+  font-size: 12px;
+  font-weight: 500;
+  color: #454545;
+  text-shadow: 0 1px 0 white;
+}
+a.bottom-link:hover {
+  background-color: #edf1f1;
+  text-decoration: none;
+}
+/* Link to full docs, at bottom */
+a#more-info {
+  position: absolute;
+  bottom: 0px;
+  right: 50px;
+  padding: 4px 10px 4px 10px;
+}
+/* Link to license */
+a#license-js-info {
+  position: absolute;
+  bottom: 0px;
+  left: 85px;
+  padding: 4px 10px 4px 10px;
+}
+/* Link to developer.mozilla.org */
+a#js-info {
+  position: absolute;
+  bottom: 0px;
+  left: 10px;
+  padding: 4px 10px 4px 10px;
+}
+/* Dark UI Theme */
+.dark .js-prop-defn {
+  color: #bbbbbb;
+}
+.dark .js-prop-defn .h1,
+.dark .js-prop-defn b {
+  color: #dddddd;
+}
+.dark .js-prop-defn a {
+  color: #6bbeff;
+}
+.dark .js-prop-defn .h1 {
+  font-size: 20px;
+}
+.dark .js-prop-defn .creationExtras {
+  padding-right: 13px;
+}
+.dark .js-prop-defn .modifiedExtras {
+  padding-right: 5px;
+}
+.dark .js-prop-defn .creationExtras,
+.dark .js-prop-defn .modifiedExtras {
+  color: #dddddd;
+}
+.dark .js-prop-defn .creationExtras,
+.dark .js-prop-defn .modifiedExtras,
+.dark .js-prop-defn .lastmodifiedDate,
+.dark .js-prop-defn .lastmodifiedBy,
+.dark .js-prop-defn .createDate,
+.dark .js-prop-defn .author {
+  float: left;
+}
+.dark .js-prop-defn .clear {
+  clear: both;
+}
+.dark .js-prop-defn .lastmodifiedDate,
+.dark .js-prop-defn .createDate {
+  padding-right: 5px;
+}
+.dark .js-prop-defn .author,
+.dark .js-prop-defn .lastmodifiedBy {
+  color: #336ecc;
+}
+.dark .js-prop-defn .syntax-code {
+  font-family: SourceCodePro;
+  font-size: 12px;
+  color: #dddddd !important;
+  background-color: rgba(255, 255, 255, 0.06) !important;
+  padding: 0 !important;
+  border: none !important;
+  white-space: normal;
+}
+.dark .js-prop-defn dl dt {
+  color: #dddddd;
+}
+.dark .js-prop-defn .divider-holder .divider {
+  border-left: 1px solid #343434;
+}
+.dark .js-prop-defn a.bottom-link {
+  background-color: #3f3f3f;
+  border: 1px solid #202020;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.06);
+  color: #dddddd;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.06);
+}
