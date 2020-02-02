@@ -1,0 +1,16 @@
+{
+    "name": "shairf-new-jqeury",
+    "title": "New jQuery Document !",
+    "description": "Brackets New jquery Document. Easily connect with jQuery, CSS, javascript link,  ",
+    "homepage": "https://github.com/iamshoreful",
+
+    "keywords":["jquery","javascript","new jquery","new jquery document","new jquery link","new html document","css", "css3","html5","html","auto","jquery link","link","complete jquery"],
+    "version": "1.1.1",
+    "author": "Shoreful Islam Ziyad @shoreful - Total Tech Team - , totaltechteams@gmail.com",
+    "license": "MIT",
+     "engines": {
+        "brackets": ">=1.1"
+    }
+    
+}
+ 
