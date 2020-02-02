@@ -1,0 +1,264 @@
+/* Colors */
+/* Typography */
+/* Overall inline widget content container */
+.regex-prop-defn {
+  min-height: 50px;
+  margin-left: 20px;
+  color: #666666;
+  /* Enable text selection */
+  cursor: auto;
+  -webkit-user-select: text;
+  -khtml-user-select: text;
+  -moz-user-select: text;
+  -ms-user-select: text;
+  -o-user-select: text;
+  user-select: text;
+  font-family: SourceSansPro;
+  font-size: 14px;
+}
+.regex-prop-defn:focus {
+  outline: none;
+}
+.regex-prop-defn h1 {
+  color: #454545;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: normal;
+  margin: 15px 0 9px 0;
+}
+.regex-prop-defn a {
+  color: #0083e8;
+}
+.regex-prop-defn code {
+  font-family: SourceCodePro;
+  font-size: 12px;
+  color: #454545;
+  background: none;
+  padding: 0;
+  white-space: normal;
+}
+.regex-prop-defn b {
+  font-weight: 500;
+}
+/* Left-hand column */
+.regex-prop-summary {
+  box-sizing: border-box;
+  float: left;
+  padding-left: 20px;
+  margin-bottom: 20px;
+  width: 35%;
+  word-wrap: break-word;
+  -webkit-hyphens: auto;
+  hyphens: auto;
+}
+.regex-prop-summary p {
+  line-height: 18px;
+}
+.regex-prop-summary .group_counter {
+  background-color: rgba(9, 232, 0, 0.2);
+  padding: 0px 5px;
+}
+.regex-prop-summary .regex_group {
+  background-color: rgba(0, 131, 232, 0.2);
+  padding: 0px 5px;
+}
+.regex-prop-summary .regex_nogroup {
+  background-color: rgba(0, 232, 134, 0.2);
+  padding: 0px 5px;
+}
+.regex-prop-summary .regex_square {
+  background-color: rgba(209, 202, 20, 0.2);
+  padding: 0px 5px;
+}
+.regex-prop-summary .meaning {
+  background-color: rgba(3, 139, 34, 0.2);
+  padding: 0px 5px;
+}
+.regex-prop-summary .text {
+  background-color: rgba(2, 116, 177, 0.2);
+  padding: 0px 5px;
+}
+.regex-prop-summary .flag_between {
+  background-color: rgba(152, 232, 0, 0.2);
+  padding: 0px 5px;
+}
+.regex-prop-summary .quant_type {
+  background-color: rgba(232, 178, 0, 0.2);
+  padding: 0px 5px;
+}
+.regex-prop-summary .flag {
+  background-color: rgba(247, 137, 56, 0.2);
+  padding: 0px 5px;
+}
+.regex-prop-summary .modifier {
+  background-color: rgba(250, 80, 73, 0.2);
+  padding: 0px 5px;
+}
+/* Right-hand column */
+.regex-prop-values {
+  box-sizing: border-box;
+  float: right;
+  width: 60%;
+}
+.regex-prop-values .scroller {
+  overflow-y: auto;
+  margin: 5px 21px 0 0;
+}
+.regex-prop-values .scroller:focus {
+  outline: none;
+}
+.regex-prop-values .sheet {
+  border-collapse: collapse;
+  border: 0px;
+}
+.regex-prop-values .sheet .min,
+.regex-prop-values .sheet .max {
+  background-color: rgba(152, 232, 0, 0.2);
+  padding: 0px 5px;
+}
+.regex-prop-values .sheet .type {
+  background-color: rgba(232, 178, 0, 0.2);
+  padding: 0px 5px;
+}
+.regex-prop-values .float_left {
+  float: left;
+  margin-right: 10px;
+}
+.regex-prop-values .end_float {
+  clear: left;
+}
+.regex-prop-values td .meaning {
+  background-color: rgba(3, 139, 34, 0.2);
+  padding: 0px 5px;
+}
+.regex-prop-values td .text {
+  background-color: rgba(2, 116, 177, 0.2);
+  padding: 0px 5px;
+}
+.regex-divider-holder {
+  position: absolute;
+  left: 37%;
+  top: 0;
+  height: 100%;
+}
+.regex-divider-holder .divider {
+  margin-left: 12px;
+  width: 0px;
+  height: 100%;
+  border-left: 1px solid #cccccc;
+  border-right: 1px solid white;
+}
+.content-bottom {
+  clear: both;
+}
+/* Link to full docs, at bottom */
+a.more-info {
+  position: absolute;
+  bottom: 0px;
+  right: 50px;
+  padding: 4px 10px 4px 10px;
+  background: #e5e9e9;
+  background-repeat: no-repeat;
+  background-size: 15px 15px;
+  background-position: 8px 4px;
+  border: 1px solid #9c9e9e;
+  border-radius: 3px 3px 0 0;
+  border-bottom: none;
+  box-shadow: inset 0 1px 0 white;
+  font-size: 12px;
+  font-weight: 500;
+  color: #454545;
+  text-shadow: 0 1px 0 white;
+}
+a.more-info:hover {
+  background-color: #edf1f1;
+  text-decoration: none;
+}
+/* Link to license */
+a.license-info {
+  position: absolute;
+  bottom: 0px;
+  left: 70px;
+  padding: 4px 10px 4px 10px;
+  background: #e5e9e9;
+  background-repeat: no-repeat;
+  background-size: 15px 15px;
+  background-position: 8px 4px;
+  border: 1px solid #9c9e9e;
+  border-radius: 3px 3px 0 0;
+  border-bottom: none;
+  box-shadow: inset 0 1px 0 white;
+  font-size: 12px;
+  font-weight: 500;
+  color: #454545;
+  text-shadow: 0 1px 0 white;
+}
+a.license-info:hover {
+  background-color: #edf1f1;
+  text-decoration: none;
+}
+/* Link to regex.net */
+a.regex-info {
+  position: absolute;
+  bottom: 0px;
+  left: 10px;
+  padding: 4px 10px 4px 10px;
+  background: #e5e9e9;
+  background-repeat: no-repeat;
+  background-size: 15px 15px;
+  background-position: 8px 4px;
+  border: 1px solid #9c9e9e;
+  border-radius: 3px 3px 0 0;
+  border-bottom: none;
+  box-shadow: inset 0 1px 0 white;
+  font-size: 12px;
+  font-weight: 500;
+  color: #454545;
+  text-shadow: 0 1px 0 white;
+}
+a.regex-info:hover {
+  background-color: #edf1f1;
+  text-decoration: none;
+}
+/* Dark UI Theme */
+.dark .regex-prop-defn,
+.dark .regex-prop-summary,
+.dark .regex-prop-values {
+  color: #bbbbbb;
+}
+.dark .regex-prop-defn h1,
+.dark .regex-prop-summary h1,
+.dark .regex-prop-values h1,
+.dark .regex-prop-defn b,
+.dark .regex-prop-summary b,
+.dark .regex-prop-values b {
+  color: #dddddd;
+}
+.dark .regex-prop-defn a,
+.dark .regex-prop-summary a,
+.dark .regex-prop-values a {
+  color: #6bbeff;
+}
+.dark .regex-prop-defn code,
+.dark .regex-prop-summary code,
+.dark .regex-prop-values code {
+  color: #dddddd;
+}
+.dark .regex-prop-defn dl dt,
+.dark .regex-prop-summary dl dt,
+.dark .regex-prop-values dl dt {
+  color: #dddddd;
+}
+.dark .regex-prop-defn .divider-holder .divider,
+.dark .regex-prop-summary .divider-holder .divider,
+.dark .regex-prop-values .divider-holder .divider {
+  border-left: 1px solid #343434;
+}
+.dark .regex-prop-defn .text,
+.dark .regex-prop-summary .text,
+.dark .regex-prop-values .text,
+.dark .regex-prop-defn .meaning,
+.dark .regex-prop-summary .meaning,
+.dark .regex-prop-values .meaning {
+  color: #dddddd;
+}
